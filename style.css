@@ -1,0 +1,27 @@
+/* 1. Universal Selector: Sets the font for the whole page */
+* {
+    font-family: Arial, sans-serif;
+    background-color: rgb(222, 239, 245);
+}
+
+/* 2. ID Selector: Styles the unique title (#) */
+#main-title {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+}
+
+/* 3. Class Selector: Styles the reusable boxes (.) */
+.content-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* 4. Child Selector: Styles the highlighted text inside boxes */
+.content-box .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
